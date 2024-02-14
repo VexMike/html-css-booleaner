@@ -1,0 +1,9 @@
+.testata {
+    background-color: rgb(156, 221, 231);
+    margin: -10px;
+}
+
+.testata .logo-testata {
+    width: 200px;
+    padding: 50px 10px;
+}

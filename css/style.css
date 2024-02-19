@@ -1,35 +1,46 @@
-figure {
-    margin-left: 0px;
-    margin-right: auto;
+/* REGOLE DI RESET */
+body {
+    margin: 0px;
 }
 
-.testata {
-    background-color: rgb(156, 221, 231);
-    margin: -20px;
-    margin-bottom: 50px;
+/* HEADER */
+.header-section {
+    background-color: #9CD6F4;
 }
 
-.testata .logo-testata {
-    width: 200px;
-    padding: 50px 20px;
+.header-section .logo-header {
+    height: 60px;
+    padding: 50px;
+    padding-left: 30px;
 }
 
-.titolo {
+/* MAIN */
+
+.article {
+    padding: 30px;
+}
+
+.title-selection {
+    font-size: 40px;
     margin-bottom: 0px;
-}
-
-.sottosezione-titolo {
     margin-top: 0px;
-    background-color: 255;
 }
 
-.lee-one {
-    display: inline-block;
-}
-
-.sottosezione-foto {
-    font-size: 10px;
+.subsection-title {
     margin-top: 0px;
+    color: #8A9BBC;
+}
+    
+a {
+    text-decoration: none;
+}
+
+.article a {
+    color: #9AD4FF;
+}
+
+figure {
+    margin: 0px;
 }
 
 .lorem {
@@ -40,28 +51,29 @@ ul {
     padding-inline-start: 15px;
 }
 
-table {
+.article .table {
+    width: 100%;
     margin-bottom: 20px;
 }
 
-td {
-    width: 10%;
-    height: 10px;
-}
-
 .line-one {
-    background-color: rgb(102, 142, 250);
+    background-color: #7FA6FB;
     color: white;
     text-align: left;
 }
 
-.subline {
-    background-color: rgb(202, 218, 233);
+.line-two {
+    background-color: #DFE5F2;
 }
 
-footer {
-    background-color: rgb(40, 40, 78);
+.width-25 {
+    width: 25%;
+}
+
+/* FOOTER */
+.footer-section {
+    background-color: #313A6B;
     text-align: center;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
 }
